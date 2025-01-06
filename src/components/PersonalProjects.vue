@@ -43,7 +43,7 @@ const projectList = ref([
 		>
 			<div class="project-item bg-white w-full pb-[45%] relative" :key="index">
 				<img
-					:src="`src/assets/images/${item.image}`"
+					src="../assets/images/ecommerce.png"
 					class="w-full h-full object-cover object-top absolute top-0 left-0"
 				/>
 				<div
