@@ -89,7 +89,7 @@ const tools = [
 			:key="index"
 		>
 			<span class="block">
-				<img :src="`my-portfolio/src/assets/images/${item.src}.png`" />
+				<img :src="`portfolio/src/assets/images/${item.src}.png`" />
 			</span>
 			<div
 				class="z-10 technical-tooltip hidden absolute bottom-[105%] left-[50%] translate-x-[-50%] bg-[#312d2d] p-2 text-xs"
@@ -106,7 +106,7 @@ const tools = [
 			:key="index"
 		>
 			<span class="block h-full">
-				<img :src="`my-portfolio/src/assets/images/${item.src}.png`" class="w-full h-full object-contain" />
+				<img :src="`portfolio/src/assets/images/${item.src}.png`" class="w-full h-full object-contain" />
 			</span>
 			<div
 				class="z-10 technical-tooltip hidden absolute bottom-[105%] left-[50%] translate-x-[-50%] bg-[#312d2d] p-2 text-xs"
