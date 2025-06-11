@@ -12,17 +12,12 @@ import GTitle from "./GTitle.vue";
 				>Hai</span
 			>
 		</div>
-    <p>
-      Ambitious and passionate about becoming a solid Product Manager. I have over
-      3 years of hands-on experience in SaaS product development. With a software
-      engineering background and a delicate business mind, I leverage technology
-      to serve businesses. So far, I have managed multiple projects from different
-      business domains, most of the products were built from scratch and rolled
-      out successfully. I enjoyed the fast-paced environment, fostering product
-      innovation. Especially empowered to drive products grow business and make
-      society better. Outside of work, I read news, travel abroad, learn about the
-      culture and history of other countries which helps me find life balance and
-      refill the energy for a new day.
-    </p>
+		<p>I have over 2 years of work experience in UI/UX.</p>
+		<p>
+			I have over 1 year of work experience with JS frameworks (VueJS) in Front-end
+			development.
+		</p>
+		<p>Have knowledge about ReactJS basic.</p>
+		<p>Proficient in Responsive/Adaptive Design.</p>
 	</div>
 </template>
