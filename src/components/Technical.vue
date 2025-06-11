@@ -78,6 +78,10 @@ const tools = [
 		src: "docker",
 	},
 ];
+
+const getImageUrl = (filename) => {
+	return new URL(`../assets/images/${filename}.png`, import.meta.url).href;
+};
 </script>
 
 <template>
@@ -89,7 +93,7 @@ const tools = [
 			:key="index"
 		>
 			<span class="block">
-				<img :src="`portfolio/src/assets/images/${item.src}.png`" />
+				<img :src="getImageUrl(item.src)" />
 			</span>
 			<div
 				class="z-10 technical-tooltip hidden absolute bottom-[105%] left-[50%] translate-x-[-50%] bg-[#312d2d] p-2 text-xs"
@@ -106,7 +110,10 @@ const tools = [
 			:key="index"
 		>
 			<span class="block h-full">
-				<img :src="`portfolio/src/assets/images/${item.src}.png`" class="w-full h-full object-contain" />
+				<img
+					:src="getImageUrl(item.src)"
+					class="w-full h-full object-contain"
+				/>
 			</span>
 			<div
 				class="z-10 technical-tooltip hidden absolute bottom-[105%] left-[50%] translate-x-[-50%] bg-[#312d2d] p-2 text-xs"
